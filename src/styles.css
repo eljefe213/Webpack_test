@@ -1,0 +1,53 @@
+/* Styles pour la section "kimonos" */
+.kimono img,
+.ceinture img {
+  width: 200px;
+  height: 300px;
+}
+
+.kimono-section,
+.ceinture-section {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px; /* Espace entre les éléments */
+  justify-content: space-between; /* Pour espacer les éléments horizontalement */
+}
+
+.kimono,
+.ceinture {
+  width: calc(
+    33.33% - 20px
+  ); /* 33.33% de largeur, déduction de l'espace entre les éléments */
+}
+
+#kimonos {
+  display: flex;
+  justify-content: space-between;
+}
+
+.kimono {
+  text-align: center;
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  background-color: #f0f0f0;
+}
+
+/* Styles pour la section "ceintures" */
+#ceintures {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px; /* Espace entre les éléments */
+  justify-content: space-between; /* Pour espacer les éléments horizontalement */
+}
+
+.ceinture {
+  width: calc(
+    30% - 20px
+  ); /* 30% de largeur, déduction de l'espace entre les éléments */
+  text-align: center;
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  background-color: #f0f0f0;
+}
